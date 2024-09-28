@@ -36,7 +36,7 @@ public class StepTracker {
 
         if (dailySteps >= minimumSteps) {
             activeDays++;
-            activeSteps += dailySteps; // Add to active steps
+            activeSteps += dailySteps;
         }
         return activeDays;
     }
@@ -46,7 +46,7 @@ public class StepTracker {
     }
 
     public int getStepsForActiveDays() {
-        return activeSteps; // Return total active steps
+        return activeSteps;
     }
 
     public int getTotalSteps() {
